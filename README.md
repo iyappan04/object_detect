@@ -57,40 +57,32 @@ The system returns results in the following format:
     "detections": [
         {
             "box": {
-                "x1": 82,
-                "x2": 135,
-                "y1": 31,
-                "y2": 201
+                "x1": 731,
+                "x2": 2208,
+                "y1": 397,
+                "y2": 1913
             },
-            "confidence": 0.73,
-            "label": "vase"
+            "confidence": 0.91,
+            "label": "dog"
         },
         {
             "box": {
-                "x1": 82,
-                "x2": 135,
-                "y1": 31,
-                "y2": 201
+                "x1": 1971,
+                "x2": 2520,
+                "y1": 263,
+                "y2": 1255
             },
-            "confidence": 0.59,
+            "confidence": 0.29,
             "label": "bottle"
-        },
-        {
-            "box": {
-                "x1": 0,
-                "x2": 222,
-                "y1": 125,
-                "y2": 224
-            },
-            "confidence": 0.51,
-            "label": "dining table"
         }
     ],
-    "image_path": "outputs/ca7d05b3.jpg",
-    "json_path": "outputs/ca7d05b3.json",
+    "image_path": "outputs/ec0e4800.jpg",
+    "json_path": "outputs/ec0e4800.json",
     "message": "Detection completed"
 }
 ```
+
+![Output](./output.jpg)
 
 ## Check Output
 ```
