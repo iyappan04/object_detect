@@ -1,4 +1,4 @@
-# Object Detection Microservice using YOLOv3
+# Object Detection Microservice
 
 This project implements a microservice for object detection using the ultralytics/yolov5 implementation. It consists of a UI backend service for handling user uploads and an AI backend service for performing object detection.
 
@@ -93,9 +93,13 @@ The system returns results in the following format:
 ```
 
 ## Check Output
+```
 http://ai_backend:5000/${image_path}
 http://ai_backend:5000/${json_path}
+```
 
-Example:
+### Example:
+```
 http://ai_backend:5000/outputs/ca7d05b3.json
 http://ai_backend:5000/outputs/ca7d05b3.jpg
+```
